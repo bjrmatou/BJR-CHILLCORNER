@@ -12,7 +12,71 @@
     font-display: swap;
 }
 
-.test1 {
-    font-size: 50px;
+* {
+    font-family: calibri;
+    font-weight: lighter;
+    color: white;
+}
+
+:root {
+    --main-color: #e5303d;
+    --main-bg-color: #242424;
+    --second-bg-color: #151515;
+    --light-grey: #c7ccdb;
+}
+
+h1, h2, h3, h4, h5 {
     font-family: 'talldark';
-}   
+    font-size: 30px;
+    color: var(--main-color);
+}
+
+body {
+    background-color: var(--main-bg-color);
+    margin: 0px;
+}
+
+
+
+
+
+
+/******************************* HEADER ********************************/
+header {
+    width: 100%;
+    display: flex;
+    align-content: center;  
+    background-color: var(--light-grey);
+}
+
+.sitelogo {
+    
+    align-self: center;
+    position: fixed;
+}
+
+
+
+/******************************* MAIN CONTAINER ********************************/
+
+
+
+
+
+/******************************* FOOTER ********************************/
+footer {
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.textfooter {
+    margin-top: -20px;
+    margin-bottom: -15px;
+    font-size: 13px;
+    line-height: 15px;
+}

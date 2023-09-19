@@ -1,4 +1,9 @@
-<h1>BJRCHILLCORNER - BJRMATOU'S DIGITAL SHELF</h1> 
-<p>personal project - messy dump/digital shelf/FAKE netflix, KINDA, but you can’t stream anything ... 
-anyway. call it whatever you want. This is a non-exhaustive list of the things I like.</p>
-<h2>(C) BJRMATOU - 2023</h2>
+<h2>BJRCHILLCORNER - BJRMATOU'S DIGITAL SHELF</h2> 
+
+<p class="textfooter">
+    MESSY DUMP/DIGITAL SHELF/PERSONAL NETFLIX, KINDA, BUT YOU CAN’T STREAM ANYTHING... 
+    <br>ANYWAY! CALL IT HOWEVER YOU WANT! 
+    THIS IS JUST MY UNSOLLICITED ADVICE ON RANDOM THINGS I CONSUME DURING MY FREE TIME.
+</p>
+
+<h3>(c) BJRMATOU - 2023</h3>
