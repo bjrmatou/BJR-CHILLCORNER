@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'talldark';
+    src:url('/talldark.woff') format('woff'),
+        url('talldark.woff2') format('woff2'),
+        url('talldark.svg#talldark') format('svg'),
+        url('talldark.eot'),
+        url('talldark.eot?#iefix') format('embedded-opentype'),
+        url('talldark.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.test1 {
+    font-size: 50px;
+    font-family: 'talldark';
+}   
