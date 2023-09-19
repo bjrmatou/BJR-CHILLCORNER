@@ -44,15 +44,40 @@ body {
 /******************************* HEADER ********************************/
 header {
     width: 100%;
+    height: 130px;
     display: flex;
-    align-content: center;  
+    flex-direction: row;
     background-color: var(--light-grey);
 }
 
+.sitename {
+    width: 70%;
+    height: 130px;
+    text-align: right;
+    line-height: 25px;
+}
+
+.sitename h1 {
+    font-size: 45px;
+    margin: 0px;
+    margin-top: 32px;
+}
+
+.sitename h2 {
+    font-size: 100px;
+    color: var(--main-bg-color);
+    margin: 0px;
+}
+
 .sitelogo {
-    
-    align-self: center;
-    position: fixed;
+    width: 30%;
+    height: 100%;
+    text-align: left;
+}
+
+.sitelogo img {
+    height: 150px;
+    margin: 10px;
 }
 
 
@@ -64,6 +89,7 @@ header {
 
 
 /******************************* FOOTER ********************************/
+
 footer {
     text-align: center;
 }
