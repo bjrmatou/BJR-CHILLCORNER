@@ -9,58 +9,35 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>BJRCHILLCORNER</title>
 </head>
+
+
 <body>
+
     <header>
         <?php include('header.php'); ?>
     </header>
+
     <main>
-
-
         <div class="main-container">
 
-
-
-
-            <div class="categ-container">
-                <h4>WATCHING</h4>
-                <article class="bjr-card">                
-                    <div class="bjr-card-imgzone">
-                        <img src="img/jujutsu-kaisen.jpg">
-                    </div>
-                        <h5>TITRE</h5>
-                        <p class="bjr-card-desc">
-                            description 
-                        </p>
-                        <div class="bjr-card-note">
-                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                        </div>
-                </article>
+            <div class="container-box">
+                <h3 class="bloc-title">WATCHING</h3>
+                <div class="bloc-cont">
+                <?php include ('watching.php')?>
+                <?php foreach($watching as $watchcard) : ?>
+                    <article class="bjr-card">
+                        <div class="card-img"><?php echo $watchcard['image']; ?></div>
+                        <h5><?php echo $watchcard['titre']; ?></h5>
+                        <p><?php echo $watchcard['description']; ?></p>
+                        <div class="card-rating"><?php echo $watchcard['note']; ?></div>
+                    </article>
+                <?php endforeach ?>
+                </div>
             </div>
-
-
-
-
-            <div class="categ-container">
-                <h4>READING</h4>
-            </div>
-
-
-
-
-            <div class="categ-container">
-                <h4>PLAYING</h4>
-            </div>
-
-
-
 
         </div>
-        
-        
+
+
 
 
     </main>

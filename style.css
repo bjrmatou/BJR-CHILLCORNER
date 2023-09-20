@@ -87,72 +87,68 @@ header {
 /******************************* MAIN CONTAINER ********************************/
 
 .main-container {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    justify-content: center;
 }
 
-.main-container h4 {
-    font-size: 35px;
-    letter-spacing: 1px;
+.container-box {
+    width: 100%;
+    max-width: 1850px;
+    align-self: center;
+    margin: 50px;
+}
+
+.bloc-title {
     margin: 0px;
+    font-size: 35px;
 }
 
-.categ-container {
-    width: 100%;
-}
-
-        /*****CARD****/
-.bjr-card {
-    width: 300px;
-    height: 200px;
-    background-color: var(--second-bg-color);
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.bjr-card img {
-    object-fit: cover;
-}
-
-.bjr-card-imgzone {
-    height: 125px;
-}
-
-.bjr-card-imgzone img {
-    width: 100%;
-    height: 125px;
+.bloc-cont {
+    background-color: #e5303d;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
 }
 
 
-.bjr-card h5 {
-    width: 100%;
-    background-color: var(--main-color);
-    color: white;
-    margin: 0%;
-    letter-spacing: 1px;
-    line-height: 30px;
-}
+    /****************** CARD ********************/
 
-.bjr-card-desc {
-    font-family: 'talldark';
-    font-size: 22px;
-    letter-spacing: 1px;
-    margin: 3px 0px 0px 0px;
-}
+    .bjr-card {
+        background-color: var(--second-bg-color);
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+        align-items: center;
+    }
 
-.fa-star {
-    color: var(--light-grey);
-}
+    .card-img {
+        width: 100%;
+        height: 120px;
+        overflow: hidden;
+    }
 
-.neutral-star {
-    color: var(--main-bg-color);
-}
+    .card-img img {
+        width: 100%;
+        object-fit: cover;
+    } 
 
+    .bjr-card h5 {
+        margin: 0px;
+        background-color: #e5303d;
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
 
+    .bjr-card p {
+        margin: 0px;
+        font-family: 'talldark';
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
 
 
 
