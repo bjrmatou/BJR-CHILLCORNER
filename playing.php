@@ -2,29 +2,48 @@
 
 $playing = [
     [
-        'id' => '1',
+        'id' => 'BDO',
         'image' => '<img src="img/jujutsu-kaisen.jpg" alt="JJK card cover">',
         'titre' => 'Black Desert Online',
-        'description' => 'MMORPG - Active',
+        'description' => 'KOREAN MMORPG',
         'note' => '★★★★★'
         ],
 
         [
-            'id' => '1',
+            'id' => 'D4',
             'image' => '<img src="img/jujutsu-kaisen.jpg" alt="JJK card cover">',
             'titre' => 'Diablo 4',
-            'description' => 'Hack&Slah - VERY active',
+            'description' => 'Hack&Slash',
             'note' => '★★★★★'
             ],
 
             [
-                'id' => '1',
+                'id' => 'BLDBRN',
                 'image' => '<img src="img/jujutsu-kaisen.jpg" alt="JJK card cover">',
                 'titre' => 'Bloodborne',
-                'description' => 'Season 2/2 - Ep 7/ongoing',
+                'description' => 'F*CKING HARD LOL - ACTION I GUESS',
                 'note' => '★★★★★'
                 ],
-        
+
+                [
+                    'id' => 'PKMN-UNITE',
+                    'image' => '<img src="img/jujutsu-kaisen.jpg" alt="JJK card cover">',
+                    'titre' => 'Pokemon Unite',
+                    'description' => 'Funny-easy MOBA',
+                    'note' => '★★★★★'
+                    ],
+
+
+                        [
+                            'id' => 'TW3',
+                            'image' => '<img src="img/jujutsu-kaisen.jpg" alt="JJK card cover">',
+                            'titre' => 'The Witcher 3',
+                            'description' => 'Action-RPG',
+                            'note' => '★★★★★'
+                            ],
+
+
+            
     
 
 

@@ -2,7 +2,7 @@
 
 $reading = [
     [
-        'id' => '1',
+        'id' => 'Chnsw',
         'image' => '<img src="img/jujutsu-kaisen.jpg" alt="JJK card cover">',
         'titre' => 'Chainsaw Man',
         'description' => 'Manga - TOME 12/ONGOING',
@@ -10,20 +10,28 @@ $reading = [
         ],
 
         [
-            'id' => '1',
+            'id' => 'Brsrk',
             'image' => '<img src="img/jujutsu-kaisen.jpg" alt="JJK card cover">',
-            'titre' => 'Jujutsu Kaisen',
-            'description' => 'Season 2/2 - Ep 7/ongoing',
+            'titre' => 'Berserk',
+            'description' => 'MANGA - TOME 41/41',
             'note' => '★★★★★'
             ],
 
             [
-                'id' => '1',
+                'id' => 'Snk',
                 'image' => '<img src="img/jujutsu-kaisen.jpg" alt="JJK card cover">',
-                'titre' => 'Jujutsu Kaisen',
-                'description' => 'Season 2/2 - Ep 7/ongoing',
+                'titre' => 'Shingeki no Kyojin',
+                'description' => 'MANGA - TOME 34/34',
                 'note' => '★★★★★'
                 ],
+
+                [
+                    'id' => 'TKG',
+                    'image' => '<img src="img/jujutsu-kaisen.jpg" alt="JJK card cover">',
+                    'titre' => 'Tokyo Ghoul/Tokyo Ghoul :RE',
+                    'description' => 'MANGA - TOME 14/14',
+                    'note' => '★★★★★'
+                    ],
         
     
 
