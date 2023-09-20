@@ -159,10 +159,13 @@ header {
 /******************************* FOOTER ********************************/
 
 footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: var(--second-bg-color);
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 20px 0px 30px 0px;
 }
 
 footer h2 {
@@ -171,7 +174,7 @@ footer h2 {
 }
 
 .textfooter {
-    margin: 5px;
+    margin: 0px;
     font-size: 12px;
     line-height: 13px;
 }
