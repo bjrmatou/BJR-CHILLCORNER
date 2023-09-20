@@ -64,7 +64,7 @@ header {
     justify-content: flex-end;
     text-align: right;
     line-height: 25px;
-    margin-top: -23px;
+    margin-top: -22px;
 }
 
 .sitename h1 {
@@ -86,9 +86,70 @@ header {
 
 /******************************* MAIN CONTAINER ********************************/
 
-main {
-    width: auto;
-    
+.main-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.main-container h4 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.categ-container {
+    width: 100%;
+}
+
+        /*****CARD****/
+.bjr-card {
+    width: 300px;
+    height: 200px;
+    background-color: var(--second-bg-color);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bjr-card img {
+    object-fit: cover;
+}
+
+.bjr-card-imgzone {
+    height: 125px;
+}
+
+.bjr-card-imgzone img {
+    width: 100%;
+    height: 125px;
+}
+
+
+.bjr-card h5 {
+    width: 100%;
+    background-color: var(--main-color);
+    color: white;
+    margin: 0%;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.bjr-card-desc {
+    font-family: 'talldark';
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 3px 0px 0px 0px;
+}
+
+.fa-star {
+    color: var(--light-grey);
+}
+
+.neutral-star {
+    color: var(--main-bg-color);
 }
 
 
@@ -110,7 +171,7 @@ footer h2 {
 }
 
 .textfooter {
-    margin:10px;
+    margin: 5px;
     font-size: 12px;
     line-height: 13px;
 }
