@@ -1,3 +1,5 @@
+/********************** GENERAL ********************************/
+
 @font-face {
     font-family: 'talldark';
     src:url('/talldark.woff') format('woff'),
@@ -29,15 +31,14 @@ h1, h2, h3, h4, h5 {
     font-family: 'talldark';
     font-size: 30px;
     color: var(--main-color);
+    
 }
 
 body {
+    width: 100%;
     background-color: var(--main-bg-color);
     margin: 0px;
 }
-
-
-
 
 
 
@@ -50,39 +51,47 @@ header {
     background-color: var(--light-grey);
 }
 
-.sitename {
-    width: 70%;
-    height: 130px;
-    text-align: right;
-    line-height: 25px;
-}
-
-.sitename h1 {
-    font-size: 45px;
-    margin: 0px;
-    margin-top: 32px;
-}
-
-.sitename h2 {
-    font-size: 100px;
-    color: var(--main-bg-color);
-    margin: 0px;
-}
-
-.sitelogo {
-    width: 30%;
-    height: 100%;
-    text-align: left;
-}
-
 .sitelogo img {
     height: 150px;
     margin: 10px;
 }
 
+.sitename {
+    width: 70%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+    line-height: 25px;
+    margin-top: -23px;
+}
+
+.sitename h1 {
+    font-size: 45px;
+    margin: 0px;
+}
+
+.sitename h2 {
+    color: var(--main-bg-color);
+    font-size: 100px;
+    margin: 0px;
+}
+
+.sitelogo {
+    width: 30%;
+}
+
 
 
 /******************************* MAIN CONTAINER ********************************/
+
+main {
+    width: auto;
+    
+}
+
+
 
 
 
@@ -91,18 +100,24 @@ header {
 /******************************* FOOTER ********************************/
 
 footer {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
-footer h3 {
-    font-size: 20px;
-    color: white;
-    letter-spacing: 2px;
+footer h2 {
+    margin: 0%;
 }
 
 .textfooter {
-    margin-top: -20px;
-    margin-bottom: -15px;
-    font-size: 13px;
-    line-height: 15px;
+    margin:10px;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+footer h3 {
+    margin: 0%;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
 }
