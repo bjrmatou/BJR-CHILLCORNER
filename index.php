@@ -28,7 +28,12 @@
                 <?php include ('watching.php')?>
                 <?php foreach($watching as $watchcard) : ?>
                     <article class="bjr-card">
-                        <div class="card-img"><?php echo $watchcard['image']; ?></div>
+                        <div class="card-img">
+                            <div class="card-desc">
+                            TEST DESCRIPTION
+                            </div>
+                            <?php echo $watchcard['image']; ?>
+                        </div>
                         <h5><?php echo $watchcard['titre']; ?></h5>
                         <p><?php echo $watchcard['description']; ?></p>
                         <div class="card-rating"><?php echo $watchcard['note']; ?></div>
