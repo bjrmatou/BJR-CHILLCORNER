@@ -91,18 +91,18 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 15px;
 }
 
 .container-box {
-    width: 100%;
-    max-width: 1850px;
+    width: 95%;
     align-self: center;
-    margin: 50px;
+    margin: 10px;
 }
 
 .bloc-title {
     margin: 0px;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .bloc-cont {
@@ -128,10 +128,13 @@ header {
         width: 100%;
         height: 120px;
         overflow: hidden;
+        align-self: center;
     }
+
 
     .card-img img {
         width: 100%;
+        min-height: 150px;
         object-fit: cover;
     } 
 
@@ -146,7 +149,7 @@ header {
     .bjr-card p {
         margin: 0px;
         font-family: 'talldark';
-        font-size: 24px;
+        font-size: 22px;
         letter-spacing: 1px;
     }
 

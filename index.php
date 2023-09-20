@@ -35,6 +35,36 @@
                 </div>
             </div>
 
+            <div class="container-box">
+                <h3 class="bloc-title">READING</h3>
+                <div class="bloc-cont">
+                <?php include ('reading.php')?>
+                <?php foreach($reading as $readcard) : ?>
+                    <article class="bjr-card">
+                        <div class="card-img"><?php echo $readcard['image']; ?></div>
+                        <h5><?php echo $readcard['titre']; ?></h5>
+                        <p><?php echo $readcard['description']; ?></p>
+                        <div class="card-rating"><?php echo $readcard['note']; ?></div>
+                    </article>
+                <?php endforeach ?>
+                </div>
+            </div>
+
+            <div class="container-box">
+                <h3 class="bloc-title">PLAYING</h3>
+                <div class="bloc-cont">
+                <?php include ('playing.php')?>
+                <?php foreach($playing as $playcard) : ?>
+                    <article class="bjr-card">
+                        <div class="card-img"><?php echo $playcard['image']; ?></div>
+                        <h5><?php echo $playcard['titre']; ?></h5>
+                        <p><?php echo $playcard['description']; ?></p>
+                        <div class="card-rating"><?php echo $playcard['note']; ?></div>
+                    </article>
+                <?php endforeach ?>
+                </div>
+            </div>
+
         </div>
 
 
