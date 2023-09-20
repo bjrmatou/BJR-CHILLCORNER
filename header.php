@@ -7,5 +7,5 @@
     </div>
 </div>
 <div class="sitelogo">
-    <img src="img/logo_gengar.png" alt="Logo BJRCHILLCORNER - Gengar, my fav pokemon!" id="logo">
+    <img src="img/logo_gengar.png" alt="Logo BJR-CHILLCORNER - Gengar, my fav pokemon!" id="logo">
 </div>

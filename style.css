@@ -30,8 +30,7 @@
 h1, h2, h3, h4, h5 {
     font-family: 'talldark';
     font-size: 30px;
-    color: var(--main-color);
-    
+    color: var(--main-color);    
 }
 
 body {
@@ -54,6 +53,15 @@ header {
 .sitelogo img {
     height: 150px;
     margin: 10px;
+    transition:
+    margin-top 1s, 
+    height 1s,
+    transform 3s;
+}
+.sitelogo img:hover {
+    transform: rotate(180deg);
+    height: 200px;
+    margin-top: 20px;
 }
 
 .sitename {
@@ -70,12 +78,25 @@ header {
 .sitename h1 {
     font-size: 45px;
     margin: 0px;
+    text-shadow: -2px 0px #ffffff;
+    transition: 1s;
+}
+
+.sitename h1:hover {
+    margin-right: -20px;
+    text-shadow: -20px 0px #ffffff;
 }
 
 .sitename h2 {
     color: var(--main-bg-color);
     font-size: 100px;
     margin: 0px;
+    transition: 1s;
+}
+
+.sitename h2:hover {
+    font-weight: 500;
+    letter-spacing: 4px;
 }
 
 .sitelogo {
@@ -103,11 +124,13 @@ header {
 .bloc-title {
     margin: 10px 0px 5px 0px;
     font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 .bloc-cont {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
 }
@@ -123,9 +146,13 @@ header {
         align-items: center;
     }
 
+    .bjr-card:hover {
+
+    }
+
     .card-img {
         width: 100%;
-        height: 120px;
+        height: 140px;
         overflow: hidden;
         align-self: center;
     }
@@ -133,7 +160,7 @@ header {
 
     .card-img img {
         width: 100%;
-        min-height: 150px;
+        min-height: 160px;
         object-fit: cover;
     } 
 
@@ -143,18 +170,22 @@ header {
         color: white;
         width: 100%;
         text-align: center;
+        letter-spacing: 1px;
+        transition: 1s;
+    }
+
+    .bjr-card h5:hover {
+        letter-spacing: 2px;
+        font-weight: 500;
     }
 
     .bjr-card p {
         margin: 0px;
+        margin-top: 5px;
         font-family: 'talldark';
         font-size: 22px;
         letter-spacing: 1px;
     }
-
-
-
-
 
 /******************************* FOOTER ********************************/
 
@@ -171,6 +202,11 @@ footer {
 footer h2 {
     margin: 0%;
     letter-spacing: 2px;
+    transition: 3s;
+}
+
+footer h2:hover {
+    letter-spacing: 4px;
 }
 
 .textfooter {
@@ -184,4 +220,31 @@ footer h3 {
     font-size: 18px;
     color: white;
     letter-spacing: 2px;
+    transition: 500ms;
+}
+
+footer h3:hover {
+    color: #e5303d;
+}
+
+
+/******************************* RESPONSIVE TABLETTE ************************/
+
+@media (max-width: 1024px) {
+    .bloc-cont {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+
+
+/******************************** RESPONSIVE MOBILE *********************/
+
+
+@media (max-width: 767.98px) {
+    .bloc-cont {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

@@ -28,7 +28,7 @@ $reading = [
                 [
                     'id' => 'TKG',
                     'image' => '<img src="img/jujutsu-kaisen.jpg" alt="JJK card cover">',
-                    'titre' => 'Tokyo Ghoul/Tokyo Ghoul :RE',
+                    'titre' => 'Tokyo Ghoul/Tokyo Ghoul:RE',
                     'description' => 'MANGA - TOME 14/14',
                     'note' => '★★★★★'
                     ],
