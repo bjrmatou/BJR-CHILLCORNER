@@ -1,9 +1,9 @@
 <div class="sitename">
     <div>
-        <h1>BJRMATOU'S</h1>
+        <h2>BJRMATOU'S DIGITAL SHELF</h2>
     </div>
     <div>
-        <br><h2>LIBRARY</h2>
+        <br><h1>BJR-CHILLCORNER</h1>
     </div>
 </div>
 <div class="sitelogo">

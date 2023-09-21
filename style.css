@@ -14,6 +14,15 @@
     font-display: swap;
 }
 
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
 * {
     font-family: calibri;
     font-weight: lighter;
@@ -52,7 +61,7 @@ header {
 
 .sitelogo img {
     height: 150px;
-    margin: 10px;
+    margin: 15px 10px;
     transition:
     margin-top 1s, 
     height 1s,
@@ -75,29 +84,28 @@ header {
     margin-top: -22px;
 }
 
-.sitename h1 {
+.sitename h2 {
     font-size: 45px;
     margin: 0px;
     text-shadow: -2px 0px #ffffff;
     transition: 1s;
 }
 
-.sitename h1:hover {
+.sitename h2:hover {
     margin-right: -20px;
     text-shadow: -20px 0px #ffffff;
 }
 
-.sitename h2 {
+.sitename h1 {
     color: var(--main-bg-color);
     font-size: 100px;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0px;
-    transition: 1s;
+    transition: 2s;
 }
 
-.sitename h2:hover {
-    font-weight: 500;
-    letter-spacing: 4px;
+.sitename h1:hover {
+    letter-spacing: 5px;
 }
 
 .sitelogo {
@@ -114,6 +122,7 @@ header {
     flex-direction: column;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 120px;
 }
 
 .container-box {
@@ -123,7 +132,7 @@ header {
 }
 
 .bloc-title {
-    margin: 10px 0px 5px 0px;
+    margin: 10px 0px;
     font-size: 40px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -145,6 +154,12 @@ header {
         flex-direction: column;
         padding: 5px;
         align-items: center;
+        transition: 1s;
+    }
+
+    .bjr-card:hover {
+        transform: scale(1.1);
+        transition: 1s;
     }
 
 
@@ -153,6 +168,7 @@ header {
         height: 140px;
         overflow: hidden;
         align-self: center;
+        transition: 1s;
     }
 
 
@@ -160,6 +176,7 @@ header {
         width: 100%;
         min-height: 160px;
         object-fit: cover;
+        transition: 2s;
     } 
 
     .bjr-card h5 {
@@ -189,15 +206,22 @@ header {
 
         .bjr-card:hover .card-desc {
             display: block;
-            transition: 1s;
         }
 
         .card-desc {
-        width: 100%;
-        height: 140px;
-        display: none;
-        background-color: var(--main-bg-color);
-        transition: 3s;
+            width: 100%;
+            position: absolute;
+            display: none;
+            -webkit-animation: fadeIn 1s;
+            animation: fadeIn 1s;
+            text-align: center;
+            margin-top: 45px;
+            font-size: 14px;
+        }
+
+        .card-img img:hover {
+            transform: scale(1.2);
+            opacity: 20%;
         }
 
 
@@ -213,9 +237,11 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 3px;
 }
 
 footer h2 {
+    font-size: 20px;
     margin: 0%;
     letter-spacing: 2px;
     transition: 3s;
@@ -227,13 +253,13 @@ footer h2:hover {
 
 .textfooter {
     margin: 0px;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 13px;
 }
 
 footer h3 {
     margin: 0%;
-    font-size: 18px;
+    font-size: 14px;
     color: white;
     letter-spacing: 2px;
     transition: 500ms;

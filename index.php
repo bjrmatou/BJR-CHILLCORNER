@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>BJRCHILLCORNER</title>
+    <title>BJR-CHILLCORNER</title>
 </head>
 
 
@@ -29,9 +29,9 @@
                 <?php foreach($watching as $watchcard) : ?>
                     <article class="bjr-card">
                         <div class="card-img">
-                            <div class="card-desc">
-                            TEST DESCRIPTION
-                            </div>
+                        <div class="card-desc">
+                            <?php echo $watchcard['review']; ?>
+                        </div>
                             <?php echo $watchcard['image']; ?>
                         </div>
                         <h5><?php echo $watchcard['titre']; ?></h5>
@@ -48,7 +48,12 @@
                 <?php include ('reading.php')?>
                 <?php foreach($reading as $readcard) : ?>
                     <article class="bjr-card">
-                        <div class="card-img"><?php echo $readcard['image']; ?></div>
+                        <div class="card-img">
+                        <div class="card-desc">
+                            <?php echo $readcard['review']; ?>
+                        </div>
+                            <?php echo $readcard['image']; ?>
+                        </div>
                         <h5><?php echo $readcard['titre']; ?></h5>
                         <p><?php echo $readcard['description']; ?></p>
                         <div class="card-rating"><?php echo $readcard['note']; ?></div>
@@ -63,7 +68,11 @@
                 <?php include ('playing.php')?>
                 <?php foreach($playing as $playcard) : ?>
                     <article class="bjr-card">
-                        <div class="card-img"><?php echo $playcard['image']; ?></div>
+                        <div class="card-img">
+                        <div class="card-desc">
+                            <?php echo $playcard['review']; ?>
+                        </div>
+                            <?php echo $playcard['image']; ?></div>
                         <h5><?php echo $playcard['titre']; ?></h5>
                         <p><?php echo $playcard['description']; ?></p>
                         <div class="card-rating"><?php echo $playcard['note']; ?></div>
