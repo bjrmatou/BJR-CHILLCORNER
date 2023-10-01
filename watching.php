@@ -7,9 +7,7 @@ $watching = [
         'titre' => 'Jujutsu Kaisen',
         'description' => 'Anime - S2EP7/Ongoing',
         'note' => '★★★★★',
-        'review' => 'Basic, I know, do NOT come at me... 
-                    <br> but hey - it IS seriously amazing !
-                    <br>If you are not already watching it, you should.'
+        'review' => 'Basic, I know, do NOT come at me... but hey - it IS seriously amazing ! If you are not already watching it, you should.'
         ],
 
         [
@@ -18,9 +16,7 @@ $watching = [
             'titre' => 'Samurai Champloo',
             'description' => 'Anime - S1EP26/Complete',
             'note' => '★★★★★',
-            'review' => 'BEST. ANIME. EVER.  
-                    <br> Do NOT talk to me, I don’t care.
-                    <br> Just embrace greatness.'
+            'review' => 'BEST. ANIME. EVER. Do NOT talk to me, I don’t care. Just embrace greatness.'
             ],
 
             [
@@ -29,9 +25,7 @@ $watching = [
                 'titre' => 'Succession',
                 'description' => 'Serie - S4EP10/Complete',
                 'note' => '★★★★★',
-                'review' => 'What can I say...  
-                    <br> Beyond amzing. An absolute masterpiece. 
-                    <br> You CANNOT do better than that.'
+                'review' => 'What can I say... Beyond amzing. An absolute masterpiece. You CANNOT do better than that.'
                 ],
 
                 [
@@ -40,8 +34,7 @@ $watching = [
                     'titre' => 'Snatch',
                     'description' => 'Movie - 1h44 de kiff',
                     'note' => '★★★★★',
-                    'review' => 'Thanks GOD for Guy Ritchie.  
-                    <br> Life would be way less funnier without this movie.'
+                    'review' => 'Thanks GOD for Guy Ritchie. Life would be way less funnier without this movie.'
                     ],
 
                     [
@@ -50,9 +43,7 @@ $watching = [
                         'titre' => 'Code Geass',
                         'description' => 'Anime - S2EP24/Complete',
                         'note' => '★★★★★',
-                        'review' => 'I’ll never get over it. Simply Exceptionnal. 
-                        <br> There is no word that is big enough to describe 
-                        <br> the level of greatness this anime serves.'
+                        'review' => 'I’ll never get over it. Simply Exceptionnal. There is no word that is big enough to describe the level of greatness this anime serves.'
                         ],
 
                         [

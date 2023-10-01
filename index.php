@@ -30,7 +30,7 @@
                     <article class="bjr-card">
                         <div class="card-img">
                         <div class="card-desc">
-                            <?php echo $watchcard['review']; ?>
+                            <div class="descdesc"><?php echo $watchcard['review']; ?></div>
                         </div>
                             <?php echo $watchcard['image']; ?>
                         </div>
