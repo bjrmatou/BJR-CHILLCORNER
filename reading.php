@@ -7,7 +7,7 @@ $reading = [
         'titre' => 'Berserk',
         'description' => 'MANGA - TOME 41/41',
         'note' => '5/5',
-        'review' => 'Do I really need to explain myself? THE GOAT like litteraly the greatest of all times, I am crying over the fact that there will never be an ending...'
+        'review' => 'Do I really need to explain myself? THE GOAT like litteraly the greatest of all times, I’m still crying over the fact that there will never be an ending...'
 
         ],
 
@@ -17,7 +17,7 @@ $reading = [
         'titre' => 'Chainsaw Man',
         'description' => 'Manga - TOME 12/ONGOING',
         'note' => '4/5',
-        'review' => 'Nice new shonen, light-hearted and fun! I am having hard times finding new shonen I enjoy and this one made it to my heart!'
+        'review' => 'Nice new shonen, light-hearted and fun! I’m having hard times finding new shonen I enjoy and this one made it to my heart!'
         ],
 
         [
@@ -26,7 +26,7 @@ $reading = [
             'titre' => 'Shingeki no Kyojin',
             'description' => 'MANGA - TOME 34/34',
             'note' => '4/5',
-            'review' => 'I just love it, it is brutal, it is surprizing, it is amazing! And I just love hating on Eren lol I need that hatred in my life in order to feel at peace hahaha'
+            'review' => 'I just love it, it’s brutal, it’s surprizing, it’s amazing! And I just love hating on Eren lol I need that hatred in my life in order to feel at peace hahaha'
 
             ],
                 [

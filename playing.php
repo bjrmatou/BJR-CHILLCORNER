@@ -7,7 +7,7 @@ $playing = [
         'titre' => 'Black Desert Online',
         'description' => 'KOREAN MMORPG',
         'note' => '3/5',
-        'review' => 'Been playing it since it aired (2015). Gameplay is nervous. Graphics are god-tier. So much cashgrab though, but hey - it is korean so all normal lol'
+        'review' => 'Been playing it since it aired (2015). Gameplay is nervous. Graphics are god-tier. So much cashgrab though, but hey - it’s korean so all normal lol'
         ],
 
         [
@@ -16,7 +16,7 @@ $playing = [
             'titre' => 'Diablo 4',
             'description' => 'Hack&Slash',
             'note' => '4/5',
-            'review' => 'I just love the license, been playing it since D2, loved D3, so obv I have been waiting for it! Overall It did not disappoint!'
+            'review' => 'I just love the license, been playing it since D2, loved D3, so obv I’ve been waiting for it! Overall It didn’t disappoint!'
             ],
 
             [
@@ -25,7 +25,7 @@ $playing = [
                 'titre' => 'Bloodborne',
                 'description' => 'F*CKING HARD LOL - ACTION I GUESS',
                 'note' => '5/5',
-                'review' => 'My fav game ever. I am not a skilled player so I am always having a hard time with FS licenses, but I just love this one, I must be NG+12 now lol'
+                'review' => 'Fav game ever. I’m not a skilled player so I’m always having hard times with FS licenses, but I must be a masochist I just love this one, I’m NG+12 now lol'
                 ],
 
                 [
@@ -34,7 +34,7 @@ $playing = [
                     'titre' => 'Pokemon Unite',
                     'description' => 'MOBA',
                     'note' => '3/5',
-                    'review' => 'Funny, easy MOBA. I enjoy playing it when I need to put my brain on off-mode, it doesnt require any skill or thinking haha'
+                    'review' => 'Funny, easy MOBA. I enjoy playing it when I need to put my brain on off-mode, it doesn’t require any skill or thinking haha'
                     ],
 
 
@@ -44,7 +44,7 @@ $playing = [
                             'titre' => 'The Witcher 3',
                             'description' => 'Action-RPG',
                             'note' => '4/5',
-                            'review' => 'Love it! Been playing the license since TW2. Story 10/10 as always. Gameplay is not as nervous as I would like it to be but really enjoyable overall.'
+                            'review' => 'Love it! Been playing the license since TW2. Story 10/10 as always. Gameplay isn’t as nervous as I’d like it to be but really enjoyable overall.'
                             ],
 
 

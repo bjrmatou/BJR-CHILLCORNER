@@ -16,7 +16,7 @@ $watching = [
         'titre' => 'Jujutsu Kaisen',
         'description' => 'Anime - S2EP7/Ongoing',
         'note' => '4/5',
-        'review' => 'Basic, I know, do NOT come at me... but hey - it IS seriously amazing ! If you are not already watching it, you should.'
+        'review' => 'Basic, I know, do NOT come at me... but hey - it IS seriously amazing ! If you’re not already watching it, you should.'
         ],
 
             [
@@ -25,7 +25,7 @@ $watching = [
                 'titre' => 'Succession',
                 'description' => 'Serie - S4EP10/Complete',
                 'note' => '5/5',
-                'review' => 'What can I say... Beyond amzing. An absolute masterpiece. You CANNOT do better than that.'
+                'review' => 'What can I say... Beyond amzing. An absolute masterpiece. Story, acting, image... I’m sorry but ou CANNOT do better than that.'
                 ],
 
                 [
@@ -43,7 +43,7 @@ $watching = [
                         'titre' => 'Code Geass',
                         'description' => 'Anime - S2EP24/Complete',
                         'note' => '5/5',
-                        'review' => 'I’ll never get over it. Simply Exceptionnal. There is no word that is big enough to describe the level of greatness this anime serves.'
+                        'review' => 'I’ll never get over it. Simply Exceptionnal. There’s no word that is big enough to describe the level of greatness this anime serves.'
                         ],
 
                         [
@@ -52,7 +52,7 @@ $watching = [
                             'titre' => 'Inception',
                             'description' => 'Movie - 2H28',
                             'note' => '4/5',
-                            'review' => 'One of my fav movies! I am well-versed in lucid dreams so obv it got my best interest. Story is amazing, actors are amazing, image is beautiful.'
+                            'review' => 'One of my fav movies! I’m well-versed in lucid dreams so obv it got my best interest. Story is amazing, actors are amazing, image is beautiful.'
 
                             ],
 
