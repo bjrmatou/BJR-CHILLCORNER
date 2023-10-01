@@ -231,6 +231,16 @@ header {
             opacity: 20%;
         }
 
+    
+    /*********************NOTES***************/
+    .card-rating {
+        color: var(--light-grey);
+    }
+    
+    .star-grey {
+        color: var(--main-bg-color);
+    }
+
 
 
 

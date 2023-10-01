@@ -36,7 +36,24 @@
                         </div>
                         <h5><?php echo $watchcard['titre']; ?></h5>
                         <p><?php echo $watchcard['description']; ?></p>
-                        <div class="card-rating"><?php echo $watchcard['note']; ?></div>
+
+                        <div class="card-rating">
+                            <?php if (array_key_exists('note', $watchcard) && $watchcard['note'] == '1/5'): ?>
+                                ★<span class="star-grey">★★★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $watchcard) && $watchcard['note'] == '2/5'): ?>
+                                ★★<span class="star-grey">★★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $watchcard) && $watchcard['note'] == '3/5'): ?>
+                                ★★★<span class="star-grey">★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $watchcard) && $watchcard['note'] == '4/5'): ?>
+                                ★★★★<span class="star-grey">★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $watchcard) && $watchcard['note'] == '5/5'): ?>
+                                ★★★★★
+                            <?php endif; ?>
+                        </div>
                     </article>
                 <?php endforeach ?>
                 </div>
