@@ -2,6 +2,15 @@
 
 $watching = [
     [
+        'id' => 'SMRC',
+        'image' => '<img src="img/samurai-champloo.jpg" alt="Samurai Champloo card cover">',
+        'titre' => 'Samurai Champloo',
+        'description' => 'Anime - S1EP26/Complete',
+        'note' => '5/5',
+        'review' => 'BEST. ANIME. EVER. Do NOT talk to me, I don’t care. Just say thank you and embrace greatness.'
+        ],
+
+    [
         'id' => 'JJK',
         'image' => '<img src="img/jujutsu-kaisen.jpg" alt="JJK card cover">',
         'titre' => 'Jujutsu Kaisen',
@@ -9,15 +18,6 @@ $watching = [
         'note' => '4/5',
         'review' => 'Basic, I know, do NOT come at me... but hey - it IS seriously amazing ! If you are not already watching it, you should.'
         ],
-
-        [
-            'id' => 'SMRC',
-            'image' => '<img src="img/samurai-champloo.jpg" alt="Samurai Champloo card cover">',
-            'titre' => 'Samurai Champloo',
-            'description' => 'Anime - S1EP26/Complete',
-            'note' => '5/5',
-            'review' => 'BEST. ANIME. EVER. Do NOT talk to me, I don’t care. Just embrace greatness.'
-            ],
 
             [
                 'id' => 'SCCSN',
@@ -51,7 +51,9 @@ $watching = [
                             'image' => '<img src="img/inception.jpg" alt="Inception card cover">',
                             'titre' => 'Inception',
                             'description' => 'Movie - 2H28',
-                            'note' => '4/5'
+                            'note' => '4/5',
+                            'review' => 'One of my fav movies! I am well-versed in lucid dreams so obv it got my best interest. Story is amazing, actors are amazing, image is beautiful.'
+
                             ],
 
                             [
@@ -59,7 +61,8 @@ $watching = [
                                 'image' => '<img src="img/mr-robot.jpg" alt="MR Robot card cover">',
                                 'titre' => 'MR ROBOT',
                                 'description' => 'Serie - S4EP13:Complete',
-                                'note' => '5/5'
+                                'note' => '5/5',
+                                'review' => 'This series just got no flaws it almost is illegal. Rami Malek is beyond perfect, like inhumanly perfect!'
                                 ],
         
     

@@ -67,13 +67,31 @@
                     <article class="bjr-card">
                         <div class="card-img">
                         <div class="card-desc">
-                            <?php echo $readcard['review']; ?>
+                            <div class="descdesc"><?php echo $readcard['review']; ?></div>
                         </div>
                             <?php echo $readcard['image']; ?>
                         </div>
                         <h5><?php echo $readcard['titre']; ?></h5>
                         <p><?php echo $readcard['description']; ?></p>
-                        <div class="card-rating"><?php echo $readcard['note']; ?></div>
+
+                        <div class="card-rating">
+                            <?php if (array_key_exists('note', $readcard) && $readcard['note'] == '1/5'): ?>
+                                ★<span class="star-grey">★★★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $readcard) && $readcard['note'] == '2/5'): ?>
+                                ★★<span class="star-grey">★★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $readcard) && $readcard['note'] == '3/5'): ?>
+                                ★★★<span class="star-grey">★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $readcard) && $readcard['note'] == '4/5'): ?>
+                                ★★★★<span class="star-grey">★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $readcard) && $readcard['note'] == '5/5'): ?>
+                                ★★★★★
+                            <?php endif; ?>
+                        </div>
+
                     </article>
                 <?php endforeach ?>
                 </div>
@@ -87,12 +105,30 @@
                     <article class="bjr-card">
                         <div class="card-img">
                         <div class="card-desc">
-                            <?php echo $playcard['review']; ?>
+                            <div class="descdesc"><?php echo $playcard['review']; ?></div>
                         </div>
                             <?php echo $playcard['image']; ?></div>
                         <h5><?php echo $playcard['titre']; ?></h5>
                         <p><?php echo $playcard['description']; ?></p>
-                        <div class="card-rating"><?php echo $playcard['note']; ?></div>
+
+                        <div class="card-rating">
+                            <?php if (array_key_exists('note', $playcard) && $playcard['note'] == '1/5'): ?>
+                                ★<span class="star-grey">★★★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $playcard) && $playcard['note'] == '2/5'): ?>
+                                ★★<span class="star-grey">★★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $playcard) && $playcard['note'] == '3/5'): ?>
+                                ★★★<span class="star-grey">★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $playcard) && $playcard['note'] == '4/5'): ?>
+                                ★★★★<span class="star-grey">★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $playcard) && $playcard['note'] == '5/5'): ?>
+                                ★★★★★
+                            <?php endif; ?>
+                        </div>
+
                     </article>
                 <?php endforeach ?>
                 </div>
