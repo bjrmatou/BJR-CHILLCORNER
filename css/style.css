@@ -46,6 +46,10 @@ h1, h2, h3, h4, h5 {
     color: var(--main-color);    
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     width: 100%;
     background-color: var(--main-bg-color);

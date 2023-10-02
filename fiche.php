@@ -22,14 +22,19 @@
     <main>
         <div class="fiche-maincont">
             <div class="cont-inline">
+            <?php include ('watching.php')?>
+            <?php include ('playing.php')?>
+            <?php include ('reading.php')?>
+            <?php foreach($watching as $watchcard) : ?>
+                <?php if (array_key_exists('id', $watchcard) && $watchcard['id'] == $_GET['id']): ?>
 
                 <div class="fiche-img">
-                    <img src="img/jujutsu-kaisen.jpg" alt="JJK card cover">
+                    <?php echo $watchcard['image']; ?>
                 </div>
 
                 <div class="fiche-contenu">
 
-                    <h3>Titre</h3>
+                    <h3><?php echo $watchcard['titre']; ?></h3>
 
                     <div class="fiche-rating">
                         note
@@ -44,6 +49,67 @@
                     </div>
 
                 </div>
+
+                <?php endif; ?>
+            <?php endforeach ?>
+
+
+            <?php foreach($reading as $readcard) : ?>
+                <?php if (array_key_exists('id', $readcard) && $readcard['id'] == $_GET['id']): ?>
+
+                <div class="fiche-img">
+                    <?php echo $readcard['image']; ?>
+                </div>
+
+                <div class="fiche-contenu">
+
+                    <h3><?php echo $readcard['titre']; ?></h3>
+
+                    <div class="fiche-rating">
+                        note
+                    </div>
+
+                    <p>
+                        resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume
+                    </p>
+
+                    <div class="fiche-avis">
+                        avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis 
+                    </div>
+
+                </div>
+
+                <?php endif; ?>
+            <?php endforeach ?>
+
+
+            <?php foreach($playing as $playcard) : ?>
+                <?php if (array_key_exists('id', $playcard) && $playcard['id'] == $_GET['id']): ?>
+
+                <div class="fiche-img">
+                    <?php echo $playcard['image']; ?>
+                </div>
+
+                <div class="fiche-contenu">
+
+                    <h3><?php echo $playcard['titre']; ?></h3>
+
+                    <div class="fiche-rating">
+                        note
+                    </div>
+
+                    <p>
+                        resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume
+                    </p>
+
+                    <div class="fiche-avis">
+                        avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis 
+                    </div>
+
+                </div>
+
+                <?php endif; ?>
+            <?php endforeach ?>
 
             </div>
         </div>

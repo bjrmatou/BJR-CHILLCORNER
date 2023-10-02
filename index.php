@@ -27,6 +27,7 @@
                 <div class="bloc-cont">
                 <?php include ('watching.php')?>
                 <?php foreach($watching as $watchcard) : ?>
+                    <a href="fiche.php?id=<?php echo $watchcard['id']; ?>">
                     <article class="bjr-card">
                         <div class="card-img">
                         <div class="card-desc">
@@ -55,6 +56,7 @@
                             <?php endif; ?>
                         </div>
                     </article>
+                    </a>
                 <?php endforeach ?>
                 </div>
             </div>
@@ -64,6 +66,7 @@
                 <div class="bloc-cont">
                 <?php include ('reading.php')?>
                 <?php foreach($reading as $readcard) : ?>
+                    <a href="fiche.php?id=<?php echo $readcard['id']; ?>">
                     <article class="bjr-card">
                         <div class="card-img">
                         <div class="card-desc">
@@ -93,6 +96,7 @@
                         </div>
 
                     </article>
+                    </a>
                 <?php endforeach ?>
                 </div>
             </div>
@@ -102,6 +106,7 @@
                 <div class="bloc-cont">
                 <?php include ('playing.php')?>
                 <?php foreach($playing as $playcard) : ?>
+                    <a href="fiche.php?id=<?php echo $playcard['id']; ?>">
                     <article class="bjr-card">
                         <div class="card-img">
                         <div class="card-desc">
@@ -130,6 +135,7 @@
                         </div>
 
                     </article>
+                    </a>
                 <?php endforeach ?>
                 </div>
             </div>
