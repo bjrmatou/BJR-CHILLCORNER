@@ -33,7 +33,7 @@
                 </div>
 
                 <div class="fiche-contenu">
-
+                    <div class="fiche-contenu-bloctop">
                     <h3><?php echo $watchcard['titre']; ?></h3>
 
                     <div class="fiche-rating">
@@ -53,13 +53,14 @@
                                 ★★★★★
                             <?php endif; ?>
                     </div>
+                    </div>
 
                     <p>
-                        resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume
+                        <?php echo $watchcard['resume']; ?>
                     </p>
 
                     <div class="fiche-avis">
-                        avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis 
+                        <?php echo $watchcard['avis']; ?>
                     </div>
 
                 </div>
@@ -98,11 +99,11 @@
                     </div>
 
                     <p>
-                        resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume
+                        <?php echo $readcard['resume']; ?>
                     </p>
 
                     <div class="fiche-avis">
-                        avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis 
+                        <?php echo $readcard['avis']; ?>
                     </div>
 
                 </div>
@@ -141,11 +142,11 @@
                     </div>
 
                     <p>
-                        resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume resume
+                        <?php echo $playcard['resume']; ?>
                     </p>
 
                     <div class="fiche-avis">
-                        avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis avis 
+                        <?php echo $playcard['avis']; ?>
                     </div>
 
                 </div>
