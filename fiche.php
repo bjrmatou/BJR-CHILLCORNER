@@ -33,10 +33,11 @@
                 </div>
 
                 <div class="fiche-contenu">
-                    <div class="fiche-contenu-bloctop">
-                    <h3><?php echo $watchcard['titre']; ?></h3>
 
-                    <div class="fiche-rating">
+                    <div class="fiche-contenu-bloctop">
+                        <h3><?php echo $watchcard['titre']; ?></h3>
+
+                        <div class="fiche-rating">
                             <?php if (array_key_exists('note', $watchcard) && $watchcard['note'] == '1/5'): ?>
                                 ★<span class="star-grey">★★★★</span>
                             <?php endif; ?>
@@ -52,15 +53,17 @@
                             <?php if (array_key_exists('note', $watchcard) && $watchcard['note'] == '5/5'): ?>
                                 ★★★★★
                             <?php endif; ?>
-                    </div>
+                        </div>
                     </div>
 
-                    <p>
-                        <?php echo $watchcard['resume']; ?>
-                    </p>
+                    <div class="fiche-contenu-blocbottom">
+                        <p>
+                            <?php echo $watchcard['resume']; ?>
+                        </p>
 
-                    <div class="fiche-avis">
-                        <?php echo $watchcard['avis']; ?>
+                        <div class="fiche-avis">
+                            <?php echo $watchcard['avis']; ?>
+                        </div>
                     </div>
 
                 </div>
@@ -76,11 +79,13 @@
                     <?php echo $readcard['image']; ?>
                 </div>
 
+
                 <div class="fiche-contenu">
 
-                    <h3><?php echo $readcard['titre']; ?></h3>
+                    <div class="fiche-contenu-bloctop">
+                        <h3><?php echo $readcard['titre']; ?></h3>
 
-                    <div class="fiche-rating">
+                        <div class="fiche-rating">
                             <?php if (array_key_exists('note', $readcard) && $readcard['note'] == '1/5'): ?>
                                 ★<span class="star-grey">★★★★</span>
                             <?php endif; ?>
@@ -96,14 +101,17 @@
                             <?php if (array_key_exists('note', $readcard) && $readcard['note'] == '5/5'): ?>
                                 ★★★★★
                             <?php endif; ?>
+                        </div>
                     </div>
+                    
+                    <div class="fiche-contenu-blocbottom">
+                        <p>
+                            <?php echo $readcard['resume']; ?>
+                        </p>
 
-                    <p>
-                        <?php echo $readcard['resume']; ?>
-                    </p>
-
-                    <div class="fiche-avis">
-                        <?php echo $readcard['avis']; ?>
+                        <div class="fiche-avis">
+                            <?php echo $readcard['avis']; ?>
+                        </div>
                     </div>
 
                 </div>
@@ -121,9 +129,10 @@
 
                 <div class="fiche-contenu">
 
-                    <h3><?php echo $playcard['titre']; ?></h3>
+                    <div class="fiche-contenu-bloctop">
+                        <h3><?php echo $playcard['titre']; ?></h3>
 
-                    <div class="fiche-rating">
+                        <div class="fiche-rating">
                             <?php if (array_key_exists('note', $playcard) && $playcard['note'] == '1/5'): ?>
                                 ★<span class="star-grey">★★★★</span>
                             <?php endif; ?>
@@ -139,14 +148,17 @@
                             <?php if (array_key_exists('note', $playcard) && $playcard['note'] == '5/5'): ?>
                                 ★★★★★
                             <?php endif; ?>
+                        </div>
                     </div>
 
-                    <p>
-                        <?php echo $playcard['resume']; ?>
-                    </p>
+                    <div class="fiche-contenu-blocbottom">
+                        <p>
+                            <?php echo $playcard['resume']; ?>
+                        </p>
 
-                    <div class="fiche-avis">
-                        <?php echo $playcard['avis']; ?>
+                        <div class="fiche-avis">
+                            <?php echo $playcard['avis']; ?>
+                        </div>
                     </div>
 
                 </div>

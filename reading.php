@@ -8,8 +8,13 @@ $reading = [
         'description' => 'MANGA - TOME 41/41',
         'note' => '5/5',
         'review' => 'Do I really need to explain myself? THE GOAT like litteraly the greatest of all times, I’m still crying over the fact that there will never be an ending...',
-        'resume' => '',
-        'avis' => ''
+        'resume' => 'The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+        <br><br>Guts wields a large sword called the Dragon Slayer and travels with a mercenary group named the Band of the Hawk. The group was founded by Griffith, a charming visionary who has an insatiable desire for power.
+        <br><br>Traveling with the Hawks, Guts learns the true value of brotherhood and loyalty, at least until things go horribly wrong…',
+        'avis' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula accumsan nulla ac posuere. Cras ullamcorper libero nec tellus consequat accumsan. Ut vitae porttitor quam. Nullam at viverra dolor. Nullam bibendum maximus arcu id congue. 
+        <br>Aliquam iaculis, lectus et consequat efficitur, lorem justo gravida sem, vel hendrerit ligula felis non enim. Nullam dignissim eleifend nisi in vehicula. Quisque pellentesque congue dolor nec tempus. Fusce elementum ligula nec arcu gravida vestibulum. 
+        <br>Vestibulum tincidunt pharetra eros eu semper. Proin et felis in turpis tempus varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla ut pharetra metus. Morbi in arcu sollicitudin metus euismod condimentum sed finibus erat.
+        '
 
         ],
 

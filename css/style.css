@@ -182,7 +182,7 @@ header {
 
     .card-img img {
         width: 100%;
-        min-height: 160px;
+        height: auto;
         object-fit: cover;
         transition: 2s;
     } 
@@ -212,11 +212,11 @@ header {
 
     .descdesc {
         width: 90%;
-        height: 140px;
+        height: auto;
+        margin-left: 12px;
+        margin-top: 35px;
         text-align: center;
         font-size: 14px;
-        margin-left: 12px;
-        margin-top: 50px;
     }
 
         /************* DESCRIPTION EN HOVER *************/
@@ -226,12 +226,13 @@ header {
         }
 
         .card-desc {
-            width: 100%;
-            height: 140px;
+            width: auto;
+            height: auto;
             position: absolute;
             display: none;
             -webkit-animation: fadeIn 1s;
             animation: fadeIn 1s;
+            padding: 10px;
         }
 
         .card-img img:hover {
