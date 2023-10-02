@@ -37,7 +37,21 @@
                     <h3><?php echo $watchcard['titre']; ?></h3>
 
                     <div class="fiche-rating">
-                        note
+                            <?php if (array_key_exists('note', $watchcard) && $watchcard['note'] == '1/5'): ?>
+                                ★<span class="star-grey">★★★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $watchcard) && $watchcard['note'] == '2/5'): ?>
+                                ★★<span class="star-grey">★★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $watchcard) && $watchcard['note'] == '3/5'): ?>
+                                ★★★<span class="star-grey">★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $watchcard) && $watchcard['note'] == '4/5'): ?>
+                                ★★★★<span class="star-grey">★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $watchcard) && $watchcard['note'] == '5/5'): ?>
+                                ★★★★★
+                            <?php endif; ?>
                     </div>
 
                     <p>
@@ -66,7 +80,21 @@
                     <h3><?php echo $readcard['titre']; ?></h3>
 
                     <div class="fiche-rating">
-                        note
+                            <?php if (array_key_exists('note', $readcard) && $readcard['note'] == '1/5'): ?>
+                                ★<span class="star-grey">★★★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $readcard) && $readcard['note'] == '2/5'): ?>
+                                ★★<span class="star-grey">★★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $readcard) && $readcard['note'] == '3/5'): ?>
+                                ★★★<span class="star-grey">★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $readcard) && $readcard['note'] == '4/5'): ?>
+                                ★★★★<span class="star-grey">★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $readcard) && $readcard['note'] == '5/5'): ?>
+                                ★★★★★
+                            <?php endif; ?>
                     </div>
 
                     <p>
@@ -95,7 +123,21 @@
                     <h3><?php echo $playcard['titre']; ?></h3>
 
                     <div class="fiche-rating">
-                        note
+                            <?php if (array_key_exists('note', $playcard) && $playcard['note'] == '1/5'): ?>
+                                ★<span class="star-grey">★★★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $playcard) && $playcard['note'] == '2/5'): ?>
+                                ★★<span class="star-grey">★★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $playcard) && $playcard['note'] == '3/5'): ?>
+                                ★★★<span class="star-grey">★★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $playcard) && $playcard['note'] == '4/5'): ?>
+                                ★★★★<span class="star-grey">★</span>
+                            <?php endif; ?>
+                            <?php if (array_key_exists('note', $playcard) && $playcard['note'] == '5/5'): ?>
+                                ★★★★★
+                            <?php endif; ?>
                     </div>
 
                     <p>
