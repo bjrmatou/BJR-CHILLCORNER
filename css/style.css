@@ -168,6 +168,7 @@ header {
     .bjr-card:hover {
         transform: scale(1.1);
         transition: 1s;
+        box-shadow: 3px 2px 35px -10px black;
     }
 
 
@@ -182,7 +183,7 @@ header {
 
     .card-img img {
         width: 100%;
-        height: auto;
+        min-height: 140px;
         object-fit: cover;
         transition: 2s;
     } 

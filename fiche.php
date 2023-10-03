@@ -57,9 +57,9 @@
                     </div>
 
                     <div class="fiche-contenu-blocbottom">
-                        <p>
-                            <?php echo $watchcard['resume']; ?>
-                        </p>
+                        <div class="fiche-resume">
+                            <p><?php echo $watchcard['resume']; ?></p>
+                        </div>
 
                         <div class="fiche-avis">
                             <?php echo $watchcard['avis']; ?>
@@ -105,9 +105,9 @@
                     </div>
                     
                     <div class="fiche-contenu-blocbottom">
-                        <p>
-                            <?php echo $readcard['resume']; ?>
-                        </p>
+                        <div class="fiche-resume">
+                            <p><?php echo $readcard['resume']; ?></p>
+                        </div>
 
                         <div class="fiche-avis">
                             <?php echo $readcard['avis']; ?>
@@ -152,9 +152,9 @@
                     </div>
 
                     <div class="fiche-contenu-blocbottom">
-                        <p>
-                            <?php echo $playcard['resume']; ?>
-                        </p>
+                        <div class="fiche-resume">
+                            <p><?php echo $playcard['resume']; ?></p>
+                        </div>
 
                         <div class="fiche-avis">
                             <?php echo $playcard['avis']; ?>

@@ -14,8 +14,7 @@ $watching = [
         <br><br>She wins the toss, and they embark on a series of adventures alongside Fuu’s quest!',
         'avis' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula accumsan nulla ac posuere. Cras ullamcorper libero nec tellus consequat accumsan. Ut vitae porttitor quam. Nullam at viverra dolor. Nullam bibendum maximus arcu id congue. 
         <br>Aliquam iaculis, lectus et consequat efficitur, lorem justo gravida sem, vel hendrerit ligula felis non enim. Nullam dignissim eleifend nisi in vehicula. Quisque pellentesque congue dolor nec tempus. Fusce elementum ligula nec arcu gravida vestibulum. 
-        <br>Vestibulum tincidunt pharetra eros eu semper. Proin et felis in turpis tempus varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla ut pharetra metus. Morbi in arcu sollicitudin metus euismod condimentum sed finibus erat.
-        '
+        <br>Vestibulum tincidunt pharetra eros eu semper. Proin et felis in turpis tempus varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla ut pharetra metus. Morbi in arcu sollicitudin metus euismod condimentum sed finibus erat.'
         ],
 
     [
@@ -40,7 +39,7 @@ $watching = [
                 'review' => 'What can I say... Beyond amzing. An absolute masterpiece. Story, acting, image... I’m sorry but ou CANNOT do better than that.',
                 'resume' => 'The series follows Logan Roy, founder and CEO of global media conglomerate Waystar Royco, and his dysfunctional family as they vie for company control amid uncertainty about the aging patriarch’s health. 
                 <br><br>As heir-apparent Kendall, Logan’s second-eldest son, attempts to solidify his eventual takeover, he and his siblings face difficult choices as hunger for power and family loyalties collide. Though the future seems increasingly uncertain, it is the past that threatens to ultimately destroy them.',
-                'avis' => ''
+                'avis' => '...'
                 ],
 
                 [
@@ -81,7 +80,6 @@ $watching = [
                             <br><br>Seeing his abilities, he is approached by Saito to carry out an almost impossible mission not to steal, but to plant the idea into the mind of the legal heir of a billion-dollar entrepreneur. 
                             <br><br>Cobb, with some specialists, must do the impossible in order to get back his life in a completely different "world of dreams" facing his own demons.',
                             'avis' => ''
-
                             ],
 
                             [

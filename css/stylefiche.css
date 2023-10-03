@@ -2,7 +2,7 @@
     width: auto;
     height: auto;
     background-color: var(--second-bg-color);
-    margin: 70px 70px 100px 70px;
+    margin: 70px 70px 90px 70px;
     padding: 30px;
 }
 
@@ -12,7 +12,6 @@
     gap: 30px;
     width: auto;
     height: auto;
-    max-height: 600px;
     overflow: hidden;
 }
 
@@ -35,6 +34,11 @@
     flex-direction: column;
 }
 
+.fiche-contenu-bloctop {
+    width: auto;
+    height: auto;
+    padding-bottom: 10px;
+}
 
 .fiche-contenu h3 {
     margin: 0px;
@@ -43,11 +47,6 @@
     width: 100%;
     text-align: center;
     letter-spacing: 1px;
-}
-
-.fiche-contenu-bloctop {
-    width: auto;
-    height: 75px;
 }
 
 .fiche-rating {
@@ -66,15 +65,33 @@
     overflow: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fiche-resume {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.title-inresume {
+    font-family: 'talldark';
+    font-size: 30px;
+    color: var(--main-color);
+    letter-spacing: 1.5px;
 }
 
 .fiche-avis {
+    display: flex;
+    flex-direction: column;
     width: auto;
     height: auto;
     background-color: var(--main-bg-color);
     padding: 20px;
+    margin-top: 20px;
     text-align: justify;
 }
 

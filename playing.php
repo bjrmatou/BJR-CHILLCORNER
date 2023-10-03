@@ -8,7 +8,9 @@ $playing = [
         'description' => 'KOREAN MMORPG',
         'note' => '3/5',
         'review' => 'Been playing it since it aired (2015). Gameplay is nervous. Graphics are god-tier. So much cashgrab though, but hey - it’s korean so all normal lol',
-        'resume' => '',
+        'resume' => 'Black Desert Online (검은사막) is a sandbox-oriented fantasy MMORPG, developed by Korean video game developer Pearl Abyss, and published by Kakao Games, released in 2015 on Windows then in 2019 on Xbox One and PlayStation 4.
+        <br><br>Black Desert is a game that tests the limitations of MMORPG with the implementation of remastered graphics and audio. 
+        <br>Enjoy exciting combat and siege, exploration, trading, fishing, training, alchemy, cooking, gathering, hunting, and more in the vast open world.',
         'avis' => ''
         ],
 
